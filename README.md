@@ -15,6 +15,8 @@ String is an interface that allows you to interact with a string as if it were a
   echo  $str->replace($array)->concat('the value of X in 30');
 ```
 
+Result: If X is TRUE increases partially the value of X in 30
+
 **Examples**
 ------------
 
