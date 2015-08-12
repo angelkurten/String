@@ -234,6 +234,38 @@ class String {
     }
 
     /**
+     * Strip whitespace (or other characters)
+     *
+     * @param string $str Character to remove
+     * @param bool $bool If true remove from the beginning of a string
+     *                   If false remove from the end of a string
+     * @return $this
+     */
+    public function trim($str = " ", $bool = true)
+    {
+        if($bool)
+        {
+            $this->string = ltrim($this->string, $str);
+        }
+        else
+        {
+            $this->string = rtrim($this->string, $str);
+        }
+
+
+        return $this;
+    }
+
+    /**
+     *Parses the string into variables
+     *
+     */
+    public function toVariable()
+    {
+        parse_str($this->string);
+    }
+
+    /**
      * Return the string representation of the method object.
      *
      * @return string
