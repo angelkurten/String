@@ -1,4 +1,4 @@
-**String**
+**String v0.1**
 =========
 String is an interface that allows you to interact with a string as if it were an object
 
