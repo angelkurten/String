@@ -3,7 +3,7 @@ Manejo de Strings Orientado a Objetos
 
 String es una interfaz que permite interactuar con una cadena de texto como si fuera un objeto
 
-```
+```php
 <?php
   require('String.php');
   
