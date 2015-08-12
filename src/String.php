@@ -36,6 +36,26 @@ class String {
     }
 
     /**
+     * @param mixed $string
+     */
+    public function setString($string)
+    {
+        $this->string = $string;
+        $this->original = $string;
+
+        return $this;
+    }
+
+    /**
+     * @param bool|false $parse
+     */
+    public function setParse($parse)
+    {
+        $this->parse = $parse;
+        return $this;
+    }
+
+    /**
      * Get string length
      *
      * @return int
@@ -257,15 +277,6 @@ class String {
     }
 
     /**
-     *Parses the string into variables
-     *
-     */
-    public function toVariable()
-    {
-        parse_str($this->string);
-    }
-
-    /**
      * Return the string representation of the method object.
      *
      * @return string
@@ -276,6 +287,7 @@ class String {
         {
             return htmlentities($this->string);
         }
+
         return $this->string;
     }
 
