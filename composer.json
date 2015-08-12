@@ -1,5 +1,5 @@
 {
-  "name": "AngelKurten/String",
+  "name": "angelkurten/string",
   "description": "String is an interface that allows you to interact with a string as if it were an object",
   "license": "MIT",
   "keywords": ["String", "interface", "object", "php"],
@@ -13,7 +13,7 @@
   "require-dev": {},
   "autoload": {
     "psr-4": {
-      "AngelKurten\\String\\": "src"
+      "angelkurten\\string\\": "src"
     }
   }
 }
