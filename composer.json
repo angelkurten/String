@@ -1,0 +1,19 @@
+{
+  "name": "AngelKurten/String",
+  "description": "String is an interface that allows you to interact with a string as if it were an object",
+  "license": "MIT",
+  "keywords": ["String", "interface", "object", "php"],
+  "authors": [
+    {
+      "name": "Angel Kurten",
+      "email": "angelkurten@hotmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "AngelKurten\\String\\": "src"
+    }
+  }
+}
