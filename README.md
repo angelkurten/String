@@ -136,3 +136,8 @@ Methods that can be concatenated are:
 ```php
   echo  $str->concat('the value of X in :VALUE')->upper()->replace([':VALUE' => '100']);
 ```
+
+Created By
+-----------
+
++ [Angel Kurten](http://twitter.com/AngelKurten)
